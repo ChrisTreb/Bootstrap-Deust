@@ -272,7 +272,7 @@ img.social:hover {
     h2 {
         font-size: 10vw;
     }
-
+    
     .skills-img-1, .skills-img-2 {
         margin-top: 5%;
     }
@@ -291,5 +291,13 @@ img.social:hover {
     img.social {
         max-height: 40px;
         margin: 2% 1%;
+    }
+
+    .round-corner-right {
+        border-radius: 0;
+    }
+    
+    .round-corner-left {
+        border-radius: 0;
     }
 }
