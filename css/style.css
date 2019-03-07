@@ -275,11 +275,25 @@ img.social:hover {
     text-align: center;
 }
 
+.back-hover {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
 .image-container:hover .image-hover {
     opacity: 0.3;
 }
 
 .image-container:hover .text-hover {
+    opacity: 1;
+}
+
+.image-container:hover .back-hover {
     opacity: 1;
 }
 
