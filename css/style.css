@@ -304,6 +304,13 @@ img.social:hover {
 /*****************/
 
 @media screen and (max-width: 1000px) {
+    img {
+        display: block;
+        margin: auto;
+        padding: 0 20%;
+    }
+
+
     .round-corner-right {
         border-radius: 0;
     }
@@ -313,7 +320,7 @@ img.social:hover {
     }
 
     h1 {
-        margin: 30% 0 0 0;
+        margin: 15% 0 0 0;
         font-size: 15vw;
     }
 
