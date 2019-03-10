@@ -303,14 +303,41 @@ img.social:hover {
 /* Media queries */
 /*****************/
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
+    .round-corner-right {
+        border-radius: 0;
+    }
+    
+    .round-corner-left {
+        border-radius: 0;
+    }
+
+    h1 {
+        margin: 30% 0 0 0;
+        font-size: 15vw;
+    }
 
     .portrait {
         display: none;
     }
 
+    h5 {
+        margin: 1% 0 2% 0;
+    }
+
+    p {
+        padding: 2% 0 2% 0;
+    }
+
+    .skills-img-1, .skills-img-2 {
+        margin: 5% 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
     h1 {
-        margin: 80% 0 0 0;
+        margin: 50% 0 0 0;
         font-size: 15vw;
     }
 
@@ -319,11 +346,7 @@ img.social:hover {
     }
     
     .skills-img-1, .skills-img-2 {
-        margin-top: 5%;
-    }
-
-    p {
-        padding: 2% 0 2% 0;
+        margin: 2% 0;
     }
 
     .p-footer {
@@ -336,13 +359,5 @@ img.social:hover {
     img.social {
         max-height: 40px;
         margin: 2% 1%;
-    }
-
-    .round-corner-right {
-        border-radius: 0;
-    }
-    
-    .round-corner-left {
-        border-radius: 0;
     }
 }
