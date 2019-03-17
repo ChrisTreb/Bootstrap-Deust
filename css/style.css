@@ -28,22 +28,6 @@ a:hover {
     color: #6dcff6;
 }
 
-h1 {
-    color: white;
-    font-family: 'Staatliches', cursive;
-    text-align: center;
-    font-size: 3vw;
-    text-shadow: 2px 2px 4px #000000;
-}
-
-h2 {
-    color: white;
-    font-family: 'Staatliches', cursive;
-    text-align: center;
-    font-size: 6vw;
-    text-shadow: 2px 2px 4px #000000;
-}
-
 img {
     display: block;
     margin: auto;
@@ -62,6 +46,26 @@ h5 {
 
 p {
     padding: 2% 0 10% 0;
+}
+
+.slide-title {
+    color: white;
+    font-family: 'Staatliches', cursive;
+    text-align: center;
+    font-size: 3vw;
+    text-shadow: 2px 2px 4px #000000;
+    padding: 0;
+    margin: 0;
+}
+
+.slide-subtitle {
+    color: white;
+    font-family: 'Staatliches', cursive;
+    text-align: center;
+    font-size: 6vw;
+    text-shadow: 2px 2px 4px #000000;
+    padding: 0;
+    margin: 0;
 }
 
 .round-corner-right {
@@ -304,12 +308,15 @@ img.social:hover {
 /*****************/
 
 @media screen and (max-width: 1000px) {
+    p {
+        padding: 2% 0 2% 0;
+    }
+
     .img-content {
         display: block;
         margin: auto;
         padding: 0 20%;
     }
-
 
     .round-corner-right {
         border-radius: 0;
@@ -319,7 +326,7 @@ img.social:hover {
         border-radius: 0;
     }
 
-    h1 {
+    .slide-title {
         margin: 15% 0 0 0;
         font-size: 15vw;
     }
@@ -332,10 +339,6 @@ img.social:hover {
         margin: 1% 0 2% 0;
     }
 
-    p {
-        padding: 2% 0 2% 0;
-    }
-
     .skills-img-1, .skills-img-2 {
         margin: 5% 0;
     }
@@ -343,12 +346,11 @@ img.social:hover {
 
 @media screen and (max-width: 600px) {
 
-    h1 {
+    .slide-title {
         margin: 50% 0 0 0;
-        font-size: 15vw;
     }
 
-    h2 {
+    .slide-subtitle {
         font-size: 10vw;
     }
     
